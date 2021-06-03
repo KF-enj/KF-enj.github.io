@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-image: url("images/AdobeStock_339817233.png");
+    background-size: cover;
+    color:rgba(230, 132, 192, 0.9);
+    text-align: center;
+}
+
+.top-wrapper h1{
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p{
+    opacity: 1;
+}
+
+.btn{
+    padding: 8px 24px;
+    color: wheat;
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.signup{
+    background-color: rgb(238, 97, 184);
+}
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+.twitter{
+    background-color: #55acee;
+}
+
+.btn-wrapper{
+    margin: 20px 0;
+}
+.btn-wrapper p{
+    margin: 10px 0;
+}
+.fab{
+    margin: 5px;
+}
+
+header{
+    height:50px;
+    width:100%;
+    background-color: rgba(243, 164, 239, 0.3);
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.logo{
+    width: 124px;
+    margin-top: 15px;
+}
+.header-left{
+    float:left;
+}
+.header-right{
+    float:right;
+    background-color: rgba(233, 127, 243, 0.562);
+}
+.header-right a{
+    line-height: 50px;
+    padding: 0 30px;
+    color:whitesmoke;
+    display:block;
+}
+
+.benefit-wrapper{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: wheat;
+    text-align: center;
+}
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color:#5f5d60;
+}
+.heading h2{
+    font-weight: normal;
+}
+
+.benefit{
+    float:left;
+    width:25%;
+}
+.benefit-icon{
+    position: relative;
+    }
+.benefit-icon p{
+    position: absolute;
+    top: 80px;
+    width: 310px;
+    color:rgb(255, 158, 218);
+}
+.text-contents{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(238, 97, 184);
+}
+
+.message-wrapper{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.message{
+    background-color: #ca8cd6;
+    padding: 15px 40px;
+    box-shadow: 0 7px #9c58a5;
+}
+.heading h3{
+    font-weight: normal;
+}
+
+footer{
+    padding-top: 30px;
+}
+footer img{
+    width:125px
+}
+footer p{
+    color: #b3aeb5;
+    font-size: 12px;
+}
